@@ -1,0 +1,11 @@
+"Pre-Requisities"
+1. Download and install Node.Js
+url:"https://nodejs.org/en/download"
+command: node --version
+
+2.İnstall TypeScript
+command:npm install -g typescript
+command:tsc -v
+
+3.Download Visual Studio code
+
