@@ -1,0 +1,26 @@
+What is typescript?
+Typescript is an open-source object-oriented language developed and maintained by Microsoft.
+Typescript is a superset of JavaScript that compiles to plain JavaScript.
+Basically,Typescript is the ES6 version of JavaScipt with some additional features.
+
+JavaScript is a dynamic programming language with no type system.
+
+How to use typescript?
+A Typescript code is written in a file with .ts extention and then compiled into JavaScript using the TypeScript compiler.
+A TypeScript file can be written in any code editor.
+
+Features of TypeScript.
+
+Cross-Platform: The TypeScript compiler can be installed on any operation systems like "Windows","MacOs" and "Linux".
+Object-Oriented Language:TypeScript provides feature like Classes,Interfaces,Modules.
+Static type-checking:TypeScript uses static typing and helps type checking at compile time.This you can use find errors while writing the code without running the script.
+Optional Static Typing:TypeScript also allows optional static typing in case you are using the dynamic typing of JavScript.
+DOM Mnaipulation: You can use TypeScript to manipulate the DOM for adding or removing elements.
+
+Advantages of TypeScript
+TypeScript is an open-source language with continuous development and maintenance by Microsoft.
+TypeScript runs on any browser or JavaScript engine.
+TypeScript is similar to JavaScipt and uses the same syntax and semantics.All of TypeScript's code finall gets converted into JavaScript.
+TypeScript is also closer in syntax to back-end language like java.This helps backend developers write  front-end code faster.
+TypeScript code can be called from an existing JavaScipt code.TypeScript also works with existing JavaScipt frameworks and libraries without any issues.
+TypeScript has support for the latest JavaScript features.
