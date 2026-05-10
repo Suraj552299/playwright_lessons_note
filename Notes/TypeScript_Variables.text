@@ -1,0 +1,27 @@
+"Variables":
+Variable is a container which can hold data.
+Typescript follows the same rules as JavaScript for variable declaretaions.
+JavaScript is not a typed language.It means we can not specify the type of the variable such as number,string,boolean etc.
+However,Typescript is a typed language,where we can specify the type of the variable.
+Variables can be declared using:var,let,and const.
+We can declare the variables in four different ways.
+1.Both type and initial value.
+2.Only the type.
+3.Only the inital value.
+4.Without type and initial value.
+
+
+Var Keyword
+The variables declared using var are avaliable within the function.
+İf we declare them outside the function,then they are avaliable everywhere i.e they are a global variable.
+İf we define them inside a code block,they are still scoped to the enclosing function.
+We can update or redefine a var variable.
+The let or const variables can't be declared or updated within the same scope.
+
+Let Keyword
+The variables declared using let can only use it in the code blodck where we declare them.Outside the code block,they are invisible.
+İf they are outside the code block,but whithin the function body then they become function scoped.
+
+Const Keyword
+We must declare a const a variable with an initial value.
+The value can't be reassigned again.
