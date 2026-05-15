@@ -1,0 +1,10 @@
+What is an operator?
+Operator is a symbol which will perform certain operation.
+For example,if we take a simple expression, 4+5=9.
+Here 4 and 5 are 'operands' and '+' is called the operator.
+Typescript consists of different of operators that are used to perform different operations.
+Types of JavaScript Operations.
+Arithmetic Operator.
+Assignment Operator.
+Relational/ Comparison Operator.
+Logical Operator.
