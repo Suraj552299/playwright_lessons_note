@@ -32,4 +32,8 @@ test('Locate elements using Xpath',async({page})=>{
     // xpath format //*[contains(@attribute,atrributeValue]
     const containsXpathElement:Locator=await page.locator('//*[contains(text()," Home")]');
     await expect(containsXpathElement).toBeVisible();
+    // Xpath with starts-with() function
+    // Matches elements whose attribute vaules start with a specified string.
+    // xpath format //*[starts-with(@id,'user')]
+// Note: The starts-with() function is helpful for dynamic elements whose IDs or class are partially consistent.
 });
