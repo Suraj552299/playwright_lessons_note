@@ -36,4 +36,11 @@ test('Locate elements using Xpath',async({page})=>{
     // Matches elements whose attribute vaules start with a specified string.
     // xpath format //*[starts-with(@id,'user')]
 // Note: The starts-with() function is helpful for dynamic elements whose IDs or class are partially consistent.
+
+// xpath with text() function.
+// Selects elements based on the exact content of the element.
+// xpath format //*[text()='']
+
+const cartLink:Locator=await page.locator("xpath=//a[text()=' Cart']");
+await expect(cartLink).toBeVisible();
 });
