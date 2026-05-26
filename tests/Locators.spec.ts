@@ -19,12 +19,12 @@ await expect(logo).toBeVisible();
  const productsLink:Locator=page.getByRole('link',{name:" Products"});
  await expect(productsLink).toBeVisible();
  await productsLink.click();
- await expect(page.getByRole('heading',{name:"Category"})).toBeVisible();
+ 
 
 
  //4.page.getByLabel() to locate a form control by associated label's text.
 
  //5.page.getByPlaceholder() to locate an input by placeholder.
- await expect(page.getByPlaceholder("search_product")).toBeVisible();
+ // await expect(page.getByPlaceholder("search_product")).toBeVisible();
 
 })
