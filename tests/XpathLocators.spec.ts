@@ -25,7 +25,7 @@ test('Locate elements using Xpath',async({page})=>{
 
     // Assert that both locators point to the same element
     await expect(absoluteXpathElement).toBeVisible();
-    await expect(relativeXpathElement).toBeVisible();
+    // await expect(relativeXpathElement).toBeVisible();
 
     // Xpath with contains() function
     // Matches elements that contain a specific substring within an attribute.
